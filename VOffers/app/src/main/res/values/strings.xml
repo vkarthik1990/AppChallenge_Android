@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">VOffers</string>
+    <string name="title_activity_maps">Voffers</string>
+    <string name="title_activity_welcom">Voffers</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_reg">VOFFERS</string>
+    <string name="title_activity_welcome">VOFFERS</string>
+</resources>
