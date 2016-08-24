@@ -106,10 +106,12 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
 
 
 
+
         @Override
         public boolean onMarkerClick (Marker marker){
-            Intent intent = new Intent(android.provider.MediaStore.ACTION_IMAGE_CAPTURE);
-            startActivityForResult(intent, 0);
+            //Intent intent = new Intent(android.provider.MediaStore.ACTION_IMAGE_CAPTURE);
+            startActivity(new Intent("com.Voffers.ARcard.UnityPlayerNativeActivity"));
+            //startActivityForResult(intent, 0);
             return false;
         }
 
